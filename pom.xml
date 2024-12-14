@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>23</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -84,8 +84,8 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.10.1</version> <!-- Use the latest plugin version -->
             <configuration>
-                <source>23</source> <!-- Set the source to Java 23 -->
-                <target>23</target> <!-- Set the target to Java 23 -->
+                <source>17</source> <!-- Set the source to Java 23 -->
+                <target>17</target> <!-- Set the target to Java 23 -->
             </configuration>
         </plugin>
     </plugins>
